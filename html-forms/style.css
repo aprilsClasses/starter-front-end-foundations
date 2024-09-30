@@ -1,7 +1,62 @@
 body {
-  padding: 10px;
+
+  height: 100vh;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-input {
-  margin: 5px;
+form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
 }
+
+label {
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  size: 2px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: white;
+  cursor: pointer;
+  border-color: gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid wheat;
+  border-color: lightgray;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 10px;
+}
+
+
+.largeBox {
+  height: 200px;
+}
+
